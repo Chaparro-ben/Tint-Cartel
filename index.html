@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tint Cartel</title>
+    <script src="https://kit.fontawesome.com/ff2ae56bdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <h1 class="title">Tint Cartel</h1>
+
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a href="#services" class="nav__link--anchor link__hover-effect">Services</a>
+          </li>
+          <li class="nav__link">
+            <a href="#about" class="nav__link--anchor link__hover-effect">About</a>
+          </li>
+          <li class="nav__link">
+            <a href="#socials" class="nav__link--anchor link__hover-effect">Socials</a>
+          </li>
+          <li class="nav__link">
+            <a href="#contact" class="nav__link--anchor link__hover-effect">Contact</a>
+          </li>
+        </ul>
+
+        <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list"><a href="#services" onclick="closeMenu()" class="menu__link">Services</a></li>
+              <li class="menu__list"><a href="#about" onclick="closeMenu()" class="menu__link">About</a></li>
+              <li class="menu__list"><a href="#socials" onclick="closeMenu()" class="menu__link">Socials</a></li>
+              <li class="menu__list"><a href="#contact" onclick="closeMenu()" class="menu__link">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <header>
+        <div class="video__container">
+          <video autoplay muted loop playsinline class="video--clip">
+            <source src="./Assets/Tint_Cartel-vid.mp4" type="video/mp4">
+          </video>
+        </div>
+      </header>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <h2 class="featured__title">Featured Products</h2>
+
+          <div class="featured__products--container">
+            <div class="featured__product" id="featured__product1">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0355/8889/8949/t/11/assets/untitled-design-1-1670491440114.png?v=1670491519"
+                alt="window-tint"
+                class="product--img"
+              />
+              <h3 class="featured__subtitle">Window Tint</h3>
+            </div>
+            <div class="featured__product" id="featured__product2">
+              <img
+                src="https://www.familyhandyman.com/wp-content/uploads/2023/02/GettyImages-1322207311.jpg"
+                alt="car-wrap"
+                class="product--img"
+              />
+              <h3 class="featured__subtitle">Wrap</h3>
+            </div>
+            <div class="featured__product" id="featured__product3">
+              <img
+                src="https://flexfilmstore.com/cdn/shop/products/nanoflex-premium-ceramic-442712_1080x.jpg?v=1719658166"
+                alt="ceramic-tint"
+                class="product--img"
+              />
+              <h3 class="featured__subtitle">Ceramic Tint</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <h2 class="section__title">Our Services</h2>
+          <div class="services__container">
+            <figure class="service__product" id="service__product1">
+              <img
+                src="Assets/Screenshot 2024-12-22 115416.png"
+                alt=""
+                class="service__product--img"
+              />
+              <div class="service__wrapper">
+                <h3 class="service__subtitle">Shade Levels</h3>
+                <p class="service__para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima ea recusandae, alias excepturi esse laboriosam
+                  assumenda quos distinctio sit. Est.
+                </p>
+              </div>
+            </figure>
+            <figure class="service__product" id="service__product2">
+              <img
+                src="https://irp-cdn.multiscreensite.com/d82d948e/dms3rep/multi/how+long+does+window+tint+last.jpg"
+                alt=""
+                class="service__product--img"
+              />
+              <h3 class="service__subtitle">Get your tint done!</h3>
+              <p class="service__para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                quia eveniet culpa atque a ipsum non veniam omnis corrupti
+                voluptatibus.
+              </p>
+            </figure>
+            <figure class="service__product" id="service__product3">
+              <img
+                src="Assets/Screenshot 2024-12-22 115344.png"
+                alt=""
+                class="service__product--img"
+              />
+              <h3 class="service__subtitle">Get a quote!</h3>
+              <p class="service__para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                architecto id rerum aut laboriosam quos ratione officia labore
+                nam? Vel.
+              </p>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+            <div class="columns">
+                <div class="left__column">
+                    <img src="./Assets/Screenshot 2024-12-22 094933.png" alt="about-img">
+                </div>
+                <div class="right__column">
+                    <h2 class="about__section--title">About our company</h2>
+                    <p class="about__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam accusantium fugiat voluptatibus repellendus aperiam! Soluta quis deleniti corporis esse, debitis dicta recusandae aperiam vel beatae laboriosam nesciunt sunt officiis voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error aspernatur, libero recusandae nostrum veritatis laudantium odit eos, optio illo ducimus voluptas est facere porro suscipit animi magnam eum. Quae!</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="socials">
+        <div class="container">
+            <div class="row">
+                <h2 class="socials__title">Follow our socials</h2>
+
+                <div class="socials__container">
+                    <div class="social__box" id="social__box1">
+                        <img src="./Assets/Screenshot 2024-12-22 094633.png" alt="" class="social__img">
+                    </div>
+                    <div class="social__box" id="social__box2">
+                        <img src="./Assets/Screenshot 2024-12-22 094353.png" alt="" class="social__img">
+                    </div>
+                    <div class="social__box" id="social__box3">
+                        <img src="./Assets/Screenshot 2024-12-22 120345.png" alt="" class="social__img">
+                    </div>
+                    <div class="social__box" id="social__box4">
+                        <img src="./Assets/Screenshot 2024-12-22 120518.png" alt="" class="social__img">
+                    </div>
+                </div>
+                <div class="social__link--container">
+                    <a href="" class="social__link"> 
+                        <span>Instagram</span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="columns">
+                    <div class="contact__left-column">
+                        <h2 class="contact__section--title">Contact Us</h2>
+                        <p class="contact__para">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid tempore soluta alias quia sed sapiente deserunt et non vitae pariatur.
+                        </p>
+                    </div>
+                    <div class="contact__right-column">
+                        <form id="contact__form">
+                            <div class="form__item">
+                                <label class="form__item--label">Name <span class="grey">(requierd)</span></label>
+                                <input type="text" name="user_name" class="input">
+                            </div>
+                            <div class="form__item">
+                                <label class="form__item--label">E-mail <span class="grey">(required)</span></label>
+                                <input type="email" name="user_email" class="input">
+                            </div>
+                            <div class="form__item">
+                                <label class="form__item--label">Message <span class="grey">(required)</span></label>
+                                <textarea type="text" name="message" class="input"></textarea>
+                            </div>
+                            <button id="contact__submit" class="form__submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row footer__row">
+                <div>
+                    <h2 class="footer__title">Tint Cartel</h2>
+                </div>
+                <div class="flex">
+                    <div>
+                        <h3 id="location">Location</h3>
+                        <p class="description">
+                            123 Demo Street <br>
+                            New York, NY 12345
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="contact">Contact</h3>
+                        <p class="description">
+                            email@example.com <br>
+                            (555) 555-5555
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </body>
+</html>
