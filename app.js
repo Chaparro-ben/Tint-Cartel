@@ -11,7 +11,7 @@ const sr = ScrollReveal ({
     distance: '65px',
     duration: 2600,
     delay: 650,
-    reset: true
+    reset: false
 });
 
 sr.reveal('.title', {delay:300, origin:'top'});
