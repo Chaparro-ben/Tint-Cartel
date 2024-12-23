@@ -266,6 +266,7 @@ nav {
   z-index: -1;
   width: 100%;
   max-width: 100%;
+  border-bottom: 3px solid #f5fbf2;
 }
 
 /* 
