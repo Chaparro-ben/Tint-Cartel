@@ -27,6 +27,7 @@ sr.reveal('.about__section--title', {delay:300, origin:'top'});
 sr.reveal('.left__column', {delay:450, origin:'left'});
 sr.reveal('.contact__left-column', {delay:400, origin:'left'});
 sr.reveal('.contact__right-column', {delay:400, origin:'bottom'});
+// fixed right animations
 sr.reveal('#social__box1', {delay:450, origin:'left'});
 sr.reveal('#social__box2', {delay:450, origin:'top'});
 sr.reveal('#social__box3', {delay:650, origin:'left'});
