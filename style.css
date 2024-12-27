@@ -266,7 +266,6 @@ nav {
   z-index: -1;
   width: 100%;
   max-width: 100%;
-  border-bottom: 3px solid #f5fbf2;
 }
 
 /* 
@@ -518,6 +517,12 @@ footer {
 
 .location {
   margin-right: 12px;
+}
+
+.copyright {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1450px) {
